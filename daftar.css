@@ -1,0 +1,116 @@
+ 
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form{
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #fff;
+    border-radius: 10px; 
+    padding: 10px;
+    box-shadow: 10px 10px 15px #2a29291b;
+}
+
+.login{
+    text-align: center;
+    padding: 0 0 5px 0;
+    border-bottom: 2px solid #C70039;
+    font-weight: 100;
+    color: #2a2929;
+    font-size: 30px;
+    font-weight: 600;
+
+}
+
+.form form{
+    padding: 0 40px;
+    box-sizing: border-box;
+
+}
+
+
+form .txt_daftar{
+    position: relative;
+    padding-top: 10px;
+}
+
+
+
+.button_border{
+ padding-top: 10px;
+}
+
+.button{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #C70039;
+    background: #C70039;
+    font-size: 20px;
+    font-weight: 500;
+    color: #e9f4fb;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+
+.button:hover{
+    opacity: 0.7;
+    transition: .5s;
+}
+
+.error{
+    background: #f2dede;
+    color: #a94442;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    margin: 0px auto;
+    transition: background 0.1s ease, padding 0.1s linear;
+    border: 1px solid #a94442;
+}
+
+.daftar{
+    margin: 10px 0;
+    text-align:  center;
+    font-size: 17px;
+    color: #666;
+    
+}
+
+.daftar a{
+    color: #2691d9;
+    text-decoration: none;
+}
+
+.daftar a:hover{
+    text-decoration: underline;
+}
+
+.txt_daftar input {
+    display: block;
+	border: 1px solid #aaaa;
+	width: 100%;
+	padding: 10px 10px 10px 10px;
+	border-radius: 5px;
+    margin-bottom: 5px;
+    outline-color: #951a3d;
+    font-size: 16px;
+}
